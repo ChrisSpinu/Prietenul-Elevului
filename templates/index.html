@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prietenul Elevului</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+</head>
+<body>
+    <h1 id="time"></h1>
+    
+    <div id="tabel-shadow">
+        <div id="planner">
+            <table>
+                <tr>
+                    <th><h2 id="astazi">Astazi</h2></th>
+                    <th><h2 id="maine">Maine</h2></th>
+                    <th><h2>Teme</h2></th>
+                </tr>
+                
+                <tr>
+                    <td><p id="ora1">Matematica</p></td>
+                    <td><p id="ora1-2">Romana</p></td>
+                    <td><p id="tema1"></p></td>
+                </tr>
+
+                <tr>
+                    <td><p id="ora2">Matematica</p></td>
+                    <td><p id="ora2-2">Romana</p></td>
+                    <td><p id="tema2"></p></td>
+                </tr>
+                <tr>
+                    <td><p id="ora3">Matematica</p></td>
+                    <td><p id="ora3-2">Romana</p></td>
+                    <td><p id="tema3"></p></td>
+                </tr>
+                <tr>
+                    <td><p id="ora4">Matematica</p></td>
+                    <td><p id="ora4-2">Romana</p></td>
+                    <td><p id="tema4"></p></td>
+                </tr>
+                <tr>
+                    <td><p id="ora5">Matematica</p></td>
+                    <td><p id="ora5-2"></p></td>
+                    <td><p id="tema5"></p></td>
+                </tr>
+                <tr>
+                    <td><p id="ora6">Matematica</p></td>
+                    <td><p id="ora6-2"></p></td>
+                    <td><p id="tema6"></p></td>
+                </tr>
+
+            </table>
+            
+        </div>
+
+        <div id="announcements">
+            <table>
+                <tr style="height: 20px"><th><h2>Anunturi</h2></th></tr>
+                <tr><td><p id="announcementsCell"></p></td></tr> <!--TD si TH nu cred ca sunt obligatorii-->
+            </table>
+        </div>
+    </div>
+
+    <p>Ai o problema,intrebare sau o recomandare?</p>
+    <p>Poti sa trimiti un mesaj pe whatsapp la:</p>
+    <p>+40748171925</p>
+
+    <div style="height:20px;"></div> <!--Poate fi fara un div intreg nou?-->
+
+    <script src="/static/planner.js"></script>
+
+</body>
+</html>

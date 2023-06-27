@@ -1,0 +1,45 @@
+
+body{
+    background-color: #020403;
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+th,td{
+    border: 3px solid;
+    text-align: center;
+    padding: 5px;
+    animation: rainbow 50s infinite;
+    border-radius: 5px;
+}
+form{
+    display: inline-block;
+}
+p,h1,h2,h3{
+    color: #FFFFF0;
+    font: Vollkorn;
+}
+@keyframes rainbow{
+    0%{color: #b90e0a;}
+    20%{color: #900d09;}
+    40%{color: #295809;}
+    60%{color: #009b7d;}
+    70%{color: #0c767d;}
+    80%{color: #1b42f1;}
+    90%{color: coral;}
+    100%{color: #b90e0a;}
+
+}
+/*0%{color: rgb(254, 165, 1);}  
+    10%{color: rgb(128, 0, 128);} 
+    20%{color: rgb(255, 0, 0);}
+    30%{color: rgb(95, 158, 160);}
+    40%{color: rgb(255, 255, 0);}
+    50%{color: rgb(255, 127, 80);}
+    60%{color: rgb(0, 128, 0);}
+    70%{color: rgb(0, 255, 255);}
+    80%{color: rgb(255, 20, 147);}
+    90%{color: rgb(30, 144, 255);}
+    100%{color: rgb(255, 166, 0);}*/
